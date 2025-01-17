@@ -30,9 +30,6 @@ jobs:
       - name: Debug parent directory
         run: ls -la ../
 
-      - name: Debug Files
-        run: ls .qodana-configs/
-
       # Use Qodana Python configuration
       - name: Copy Qodana Starter Config
         run: .qodana_configs/qodana2.yaml qodana.yaml
