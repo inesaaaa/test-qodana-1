@@ -35,7 +35,7 @@ jobs:
 
       # Use Qodana Python configuration
       - name: Copy Qodana Starter Config
-        run: ../../.qodana_configs/qodana2.yaml ../../qodana.yaml
+        run: .qodana_configs/qodana2.yaml qodana.yaml
 
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.3
