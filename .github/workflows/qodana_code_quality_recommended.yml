@@ -22,7 +22,7 @@ jobs:
 
       # Use Qodana Python configuration
       - name: Copy Qodana recommended Config
-        run: cp .qodana-configs/qodana1.yaml ./qodana.yml
+        run: ../../.qodana_configs/qodana1.yaml ../../qodana.yaml
 
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.3
