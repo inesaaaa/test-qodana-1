@@ -24,15 +24,15 @@ jobs:
         run: pwd
 
       - name: Debug Current Directory
-        run: ls
+        run: ls -la
 
       - name: Debug parent directory
-        run: ls ../
+        run: ls -la ../
 
 
 
       - name: Debug Files
-        run: ls -R .qodana-configs/
+        run: ls .qodana-configs/
 
         # Use Qodana Python configuration
       - name: Copy Qodana sanity Config
