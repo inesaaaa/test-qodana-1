@@ -24,6 +24,12 @@ jobs:
       - name: Path
         run: pwd
 
+      - name: Debug Current Directory
+        run: ls
+
+      - name: Debug parent directory
+        run: ls ../
+
       - name: Debug Files
         run: ls -R .qodana-configs/
 
